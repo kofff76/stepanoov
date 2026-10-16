@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#090b10" />
+  <meta name="description" content="Luxury opera singer website template — biography, schedule, repertoire, media and management." />
+  <title>Adrian Valente — Baritone</title>
+  <link rel="stylesheet" href="assets/css/lux.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script defer src="assets/js/lux.js"></script>
+</head>
+<body>
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__mark">AV</div>
+    <div class="preloader__line"><i></i></div>
+  </div>
+
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Home">
+      <span class="brand__monogram">AV</span>
+      <span class="brand__name">Adrian Valente</span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#biography">Biography</a>
+      <a href="#career">Career</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#repertoire">Repertoire</a>
+      <a href="#media">Media</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Artist introduction">
+      <div class="hero__media" aria-hidden="true">
+        <img src="assets/images/hero.png" alt="" />
+      </div>
+      <div class="hero__wash"></div>
+      <div class="hero__eyebrow reveal">Opera · Concert · Recital</div>
+      <div class="hero__title-wrap">
+        <h1 class="hero__title" aria-label="Adrian Valente"><span>Adrian</span><span>Valente</span></h1>
+        <p class="hero__voice">Baritone</p>
+      </div>
+      <div class="hero__foot reveal">
+        <span>International opera artist</span>
+        <a href="#biography">Discover <b>↓</b></a>
+      </div>
+    </section>
+
+    <section class="manifesto section" id="biography">
+      <div class="section-kicker">01 — The Artist</div>
+      <div class="manifesto__grid">
+        <h2 class="display reveal-lines">A voice shaped for the stage. A presence built for the moment.</h2>
+        <div class="manifesto__copy reveal">
+          <p>Adrian Valente is a dramatic baritone whose repertoire moves from Verdi and Puccini to Mozart and the French grand-opera tradition. This template is designed as a complete international artist portfolio: restrained, cinematic and focused on career, repertoire and booking.</p>
+          <a class="text-link" href="#career">Selected career <span>↗</span></a>
+        </div>
+      </div>
+      <div class="portrait-band">
+        <figure class="portrait-band__image image-reveal"><img src="assets/images/portrait-02.png" alt="Opera singer portrait" /></figure>
+        <div class="portrait-band__stats">
+          <div><strong>28</strong><span>Leading roles</span></div>
+          <div><strong>17</strong><span>Opera houses</span></div>
+          <div><strong>12</strong><span>Countries</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="career section section--ink" id="career">
+      <div class="section-kicker">02 — International Career</div>
+      <div class="career__head">
+        <h2 class="display reveal-lines">Selected Opera Houses</h2>
+        <p class="reveal">A horizontal journey through the stages that define an international career.</p>
+      </div>
+      <div class="theatres" data-horizontal>
+        <div class="theatres__track">
+          <article class="theatre-card">
+            <img class="theatre-card__photo" src="assets/images/teatro-real.jpg" alt="Teatro Real, Madrid" />
+            <div class="theatre-card__shade"></div>
+            <div class="theatre-card__content"><span>Madrid · Spain</span><h3>Teatro Real</h3><p>Verdi · La Traviata · Giorgio Germont</p></div>
+            <img class="theatre-card__logo theatre-card__logo--light" src="assets/images/logo-real.png" alt="Teatro Real logo" />
+          </article>
+          <article class="theatre-card">
+            <img class="theatre-card__photo" src="assets/images/san-carlo.jpg" alt="Teatro di San Carlo, Naples" />
+            <div class="theatre-card__shade"></div>
+            <div class="theatre-card__content"><span>Naples · Italy</span><h3>Teatro di San Carlo</h3><p>Puccini · Tosca · Scarpia</p></div>
+            <img class="theatre-card__logo theatre-card__logo--light" src="assets/images/logo-san-carlo.png" alt="Teatro di San Carlo logo" />
+          </article>
+          <article class="theatre-card">
+            <img class="theatre-card__photo" src="assets/images/amsterdam.jpg" alt="Dutch National Opera, Amsterdam" />
+            <div class="theatre-card__shade"></div>
+            <div class="theatre-card__content"><span>Amsterdam · Netherlands</span><h3>Dutch National Opera</h3><p>Mozart · Don Giovanni · Title role</p></div>
+            <img class="theatre-card__logo theatre-card__logo--light" src="assets/images/logo-dutch.png" alt="Dutch National Opera logo" />
+          </article>
+          <article class="theatre-card">
+            <img class="theatre-card__photo" src="assets/images/sydney.jpg" alt="Sydney Opera House" />
+            <div class="theatre-card__shade"></div>
+            <div class="theatre-card__content"><span>Sydney · Australia</span><h3>Sydney Opera House</h3><p>Verdi · Rigoletto · Title role</p></div>
+            <img class="theatre-card__logo theatre-card__logo--light" src="assets/images/logo-sydney.png" alt="Sydney Opera House logo" />
+          </article>
+          <article class="theatre-card">
+            <img class="theatre-card__photo" src="assets/images/met.jpg" alt="Metropolitan Opera, New York" />
+            <div class="theatre-card__shade"></div>
+            <div class="theatre-card__content"><span>New York · USA</span><h3>Metropolitan Opera</h3><p>Gala appearance · Concert repertoire</p></div>
+            <img class="theatre-card__logo theatre-card__logo--dark" src="assets/images/logo-met.jpg" alt="Metropolitan Opera logo" />
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="schedule section" id="schedule">
+      <div class="section-kicker">03 — Schedule</div>
+      <div class="schedule__head">
+        <h2 class="display reveal-lines">Season 2026/27</h2>
+        <span class="schedule__note">Selected appearances</span>
+      </div>
+      <div class="schedule-list">
+        <article class="event-row reveal"><time>12 Oct 2026</time><div><span>Verdi</span><h3>La Traviata</h3></div><div><span>Giorgio Germont</span><p>Teatro Real · Madrid</p></div><b>↗</b></article>
+        <article class="event-row reveal"><time>28 Nov 2026</time><div><span>Puccini</span><h3>Tosca</h3></div><div><span>Scarpia</span><p>Teatro di San Carlo · Naples</p></div><b>↗</b></article>
+        <article class="event-row reveal"><time>14 Feb 2027</time><div><span>Mozart</span><h3>Don Giovanni</h3></div><div><span>Don Giovanni</span><p>Dutch National Opera · Amsterdam</p></div><b>↗</b></article>
+        <article class="event-row reveal"><time>07 May 2027</time><div><span>Verdi</span><h3>Rigoletto</h3></div><div><span>Rigoletto</span><p>Sydney Opera House · Sydney</p></div><b>↗</b></article>
+      </div>
+    </section>
+
+    <section class="feature section section--blue" id="media">
+      <div class="section-kicker">04 — Featured Performance</div>
+      <div class="feature__frame image-reveal">
+        <img src="assets/images/portrait-03.png" alt="Featured opera performance portrait" />
+        <div class="feature__overlay"></div>
+        <div class="feature__caption"><span>Verdi · Don Carlo</span><h2>“Io morrò”</h2><p>Featured studio performance</p></div>
+        <button class="play-button" type="button" aria-label="Video placeholder"><span>Play</span></button>
+      </div>
+    </section>
+
+    <section class="repertoire section" id="repertoire">
+      <div class="section-kicker">05 — Repertoire</div>
+      <div class="repertoire__layout">
+        <div class="repertoire__intro"><h2 class="display reveal-lines">Roles & repertoire</h2><p>Designed for quick scanning by casting directors and artistic administrators.</p></div>
+        <div class="composer-list">
+          <details open><summary><span>01</span><strong>Verdi</strong><i>8 roles</i></summary><div class="roles"><span>Rigoletto — Rigoletto</span><span>La Traviata — Giorgio Germont</span><span>Macbeth — Macbeth</span><span>Don Carlo — Rodrigo</span><span>Il Trovatore — Conte di Luna</span></div></details>
+          <details><summary><span>02</span><strong>Puccini</strong><i>4 roles</i></summary><div class="roles"><span>Tosca — Scarpia</span><span>La Bohème — Marcello</span><span>Madama Butterfly — Sharpless</span><span>Il Tabarro — Michele</span></div></details>
+          <details><summary><span>03</span><strong>Mozart</strong><i>4 roles</i></summary><div class="roles"><span>Don Giovanni — Don Giovanni</span><span>Le nozze di Figaro — Conte Almaviva</span><span>Così fan tutte — Guglielmo</span></div></details>
+          <details><summary><span>04</span><strong>French repertoire</strong><i>5 roles</i></summary><div class="roles"><span>Carmen — Escamillo</span><span>Faust — Valentin</span><span>Les pêcheurs de perles — Zurga</span></div></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="press section section--paper">
+      <div class="section-kicker">06 — Press</div>
+      <div class="quotes">
+        <blockquote class="quote reveal"><p>“A commanding stage presence, noble phrasing and a baritone of uncommon depth.”</p><cite>— International Opera Review</cite></blockquote>
+        <blockquote class="quote reveal"><p>“Valente combines dramatic authority with a remarkably elegant legato line.”</p><cite>— Classical Stage</cite></blockquote>
+      </div>
+    </section>
+
+    <section class="gallery section section--ink">
+      <div class="section-kicker">07 — Gallery</div>
+      <div class="gallery__head"><h2 class="display reveal-lines">Portraits</h2><p>Press-ready imagery and editorial photography.</p></div>
+      <div class="gallery-grid">
+        <figure class="g1 image-reveal"><img src="assets/images/portrait-01.png" alt="Artist in black tailcoat" /></figure>
+        <figure class="g2 image-reveal"><img src="assets/images/portrait-04.png" alt="Artist in white tuxedo" /></figure>
+        <figure class="g3 image-reveal"><img src="assets/images/portrait-05.png" alt="Artist in formal tailcoat" /></figure>
+        <figure class="g4 image-reveal"><img src="assets/images/portrait-06.png" alt="Artist in black tuxedo" /></figure>
+      </div>
+    </section>
+
+    <section class="representation section" id="contact">
+      <div class="section-kicker">08 — Representation</div>
+      <div class="representation__grid">
+        <div><span class="label">General management</span><h2>VELES<br />Music Agency</h2></div>
+        <div class="representation__contact"><span class="label">Booking & enquiries</span><a href="mailto:booking@example.com">booking@example.com</a><a href="tel:+00000000000">+00 000 000 00 00</a><p>Worldwide representation</p></div>
+      </div>
+      <div class="contact-portrait image-reveal"><img src="assets/images/portrait-04.png" alt="Opera singer in white tuxedo" /><div class="contact-portrait__words"><span>Let’s create</span><strong>the next stage.</strong></div></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__brand">Adrian Valente <span>Baritone</span></div>
+    <div class="footer__links"><a href="#top">Top ↑</a><a href="#contact">Management</a></div>
+    <small>© 2026 Artist website template. Replace demo content before publication.</small>
+  </footer>
+</body>
+</html>
